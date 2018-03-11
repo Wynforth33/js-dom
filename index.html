@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Car Gallery</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./resources/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./resources/css/thumbnail-gallery.css" type="text/css">
+    <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Gallery -->
+      <div class="carimages grid">
+        <ul>
+          <div class="col-sm-3 image grid-item">
+            <a href="#" class="thumbnail">
+              <img src="resources/images/car1.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-sm-3 image grid-item">
+            <a href="#" class="thumbnail">
+              <img src="resources/images/car8.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-sm-3 image grid-item">
+            <a href="#" class="thumbnail">
+              <img src="resources/images/car2.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-sm-3 image grid-item">
+            <a href="#" class="thumbnail">
+              <img src="resources/images/car6.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-sm-3 image grid-item">
+            <a href="#" class="thumbnail">
+              <img src="resources/images/car3.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-sm-3 image grid-item">
+            <a href="#" class="thumbnail">
+              <img src="resources/images/car4.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-sm-3 image grid-item">
+            <a href="#" class="thumbnail">
+              <img src="resources/images/car1.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-sm-3 image grid-item">
+            <a href="#" class="thumbnail">
+              <img src="resources/images/car5.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-sm-3 image grid-item">
+            <a href="#" class="thumbnail">
+              <img src="resources/images/car2.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-sm-3 image grid-item">
+            <a href="#" class="thumbnail">
+              <img src="resources/images/car6.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-sm-3 image grid-item">
+            <a href="#" class="thumbnail">
+              <img src="resources/images/car7.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+          <div class="col-sm-3 image grid-item">
+            <a href="#" class="thumbnail">
+              <img src="resources/images/car8.jpg" alt="" class="img-responsive">
+            </a>
+          </div>
+        </ul>
+      </div>
+    </div>
+   <!-- Scripts -->
+                                      <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                                 <!-- Masonry Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.1/masonry.pkgd.min.js"></script>
+    <script>
+      $('body').masonry({
+        // Object with Keys - Values we can assign to direct Masonry
+        itemSelector: '.image',
+        isAnimated: true,
+        isFitWidth: true
+      });
+    </script>
+                                <!-- Main Script File -->
+    <script src="./resources/scripts/scripts.js"></script>
+  </body>
+</html>
